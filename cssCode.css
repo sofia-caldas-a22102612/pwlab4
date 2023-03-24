@@ -21,6 +21,7 @@ header{
   /* Text styles */
   text-align: center;
   color: white; /* ADD THIS LINE */
+  text-shadow:gray;
 
   /* Background styles */
   background-image: url('https://a-z-animals.com/media/2022/06/greatwhitesharkleaps.jpg');
@@ -79,7 +80,7 @@ div.parallax {
 }
 
 .parallax {
-  background-image: url("imagens\memeforpwshark.png");
+  background-image: url("memeforpwshark.png");
  min-height: 200px; 
  background-attachment: fixed;
  background-position: center;
@@ -88,11 +89,12 @@ div.parallax {
 }
 
 .parallax2 {
-  background-image: url("imagens\memeforpwshark.png");
+  background-image: url("http://www.karipatterson.com/wp-content/uploads/2012/06/underwater.jpg");
  min-height: 200px; 
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
+ color: aliceblue;
 }
 
 b {
