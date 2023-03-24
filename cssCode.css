@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.355);
+  font-family: sans-serif;
+}
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: url('https://a-z-animals.com/media/2022/06/greatwhitesharkleaps.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.hero .btn {
+  /* Positioning and sizing */
+  display: block;
+  width: 200px;
+
+  background-image: url('https://img.freepik.com/premium-vector/abstract-sky-pastel-rainbow-gradient-background-ecology-concept-your-graphic-design_29865-1661.jpg');
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Text styles */
+  color: white; /* CHANGE THIS LINE */
+  text-shadow: 0cqh;
+  text-decoration: none;
+  font-size: 1.5em;
+
+  /* Border styles */
+  border: 3px solid white; /* CHANGE THIS LINE */
+  border-radius: 20px;
+  box-shadow: inset;
+}
+
+
+/* Zona PaginaParalax*/
+
+
+
+div.parallax {
+  margin: 30px;
+ border: 3px solid black;
+}
+
+.parallax {
+  background-image: url("imagens\memeforpwshark.png");
+ min-height: 200px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("imagens\memeforpwshark.png");
+ min-height: 200px; 
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+b {
+ color: dodgerblue;
+}
